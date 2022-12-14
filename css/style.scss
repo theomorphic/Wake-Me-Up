@@ -3,6 +3,8 @@
 	src: url(../files/Barchella_Drumal.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 *,
 *::after,
 *::before{
@@ -25,7 +27,7 @@ a{
 }
 
 body{
-	font-family: 'Barchella';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 17px;
@@ -64,7 +66,7 @@ body{
 }
 
 .menu__link:hover{ //то есть он находит и применяет только когда сосед такой же
-	background-color: #131313;
+	background-color: #2e2e2e;
 	color: #fff;
 }
 
@@ -112,13 +114,13 @@ body{
 	letter-spacing: 1.1em;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #131313;
+	background-color: #2e2e2e;
 	padding: 28px 71px 28px 81px;
 	transition: all .3s;
 }
 
 .bike__link:hover{
-	background-color: #FF4040;
+	background-color: #da7d51;
 }
 
 .bike-slider__item{
@@ -146,7 +148,7 @@ body{
 	font-size: 0;
 	padding: 0;
 	border: none;
-	background-color: #131313;
+	background-color: #2e2e2e;
 	width: 2px;
 	height: 25px;
 	border-radius: 7px;
@@ -155,7 +157,7 @@ body{
 }
 .slick-dots button:hover,
 .slick-active button{
-	background-color: #FF4040;
+	background-color: #da7d51;
 }
 
 .bike__list{
@@ -253,7 +255,7 @@ body{
 
 .characteristics__list-title{
 	padding: 2px 0 3px;
-	background-color: #131313;
+	background-color: #2e2e2e;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 17px;
@@ -317,10 +319,11 @@ body{
 .form__input-phone{
 	width: 100%;
 	border: none;
-	border-bottom: 1px solid #131313;
+	border-bottom: 1px solid #2e2e2e;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	outline: none;
+	background-color: #fff6e4;
 }
 
 .form__input-name::placeholder,
@@ -379,7 +382,7 @@ body{
 	margin-left: 23px;
 }
 .form__radio-style--red{
-	background: #FF4040;
+	background: #da7d51;
 	margin-left: 23px;
 
 }
@@ -387,7 +390,7 @@ body{
 .form__btn{
 	margin-top: 50px;
 	padding: 28px 71px 28px 81px;
-	background-color: #131313;
+	background-color: #2e2e2e;
 	color: #fff;
 	font-size: 20px;
 	line-height: 24px;
@@ -399,14 +402,14 @@ body{
 }
 
 .form__btn:hover{
-	background-color: #FF4040;
+	background-color: #da7d51;
 }
 
 .form__bike-price{
 	font-size: 32px;
 	text-transform: lowercase;
 	position: absolute;
-	top: 30px;
+	top: 200px;
 	left: 0;
 	right: 0;
 	width: 221px;
@@ -431,7 +434,7 @@ body{
 }
 
 .footer{
-	background-color: #131313;
+	background-color: #2e2e2e;
 }
 
 .footer__inner{
