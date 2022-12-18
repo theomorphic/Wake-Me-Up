@@ -191,11 +191,12 @@ body{
 
 .info__inner{
 	display: flex;
+	justify-content: center;
 }
 
 .info__img{
 	margin-right: 60px;
-	flex-basis: 570px;
+	flex-basis: 320px;
 	object-fit: cover; //чтобы норм растягивалось
 }
 
